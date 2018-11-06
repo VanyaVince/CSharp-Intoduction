@@ -22,7 +22,7 @@ public class App {
             int newStair = 0;
             stair.add(newStair);
 
-            for (int i = 0; i < stair.size() ; i++) {
+            for (int i = 0; i < stair.size() - 1; i++) {
 
                 while (stair.get(i + 1) + 2 < stair.get(i)) {
                     stair.set(i, stair.get(i) - 1);
@@ -38,5 +38,6 @@ public class App {
         for (int i = 0; i < stair.size(); i++) {
             System.out.println(stair.get(i));
         }
+        System.out.println(stair.size());
     }
 }
