@@ -38,6 +38,5 @@ public class App {
         for (int i = 0; i < stair.size(); i++) {
             System.out.println(stair.get(i));
         }
-        System.out.println(stair.size());
     }
 }
