@@ -1,0 +1,11 @@
+C:\Coding\.Net Framework\REST_CLIENT_APPLICATION\bin\Release\netcoreapp2.1\REST_CLIENT_APPLICATION.deps.json
+C:\Coding\.Net Framework\REST_CLIENT_APPLICATION\bin\Release\netcoreapp2.1\REST_CLIENT_APPLICATION.runtimeconfig.json
+C:\Coding\.Net Framework\REST_CLIENT_APPLICATION\bin\Release\netcoreapp2.1\REST_CLIENT_APPLICATION.runtimeconfig.dev.json
+C:\Coding\.Net Framework\REST_CLIENT_APPLICATION\bin\Release\netcoreapp2.1\REST_CLIENT_APPLICATION.dll
+C:\Coding\.Net Framework\REST_CLIENT_APPLICATION\bin\Release\netcoreapp2.1\REST_CLIENT_APPLICATION.pdb
+C:\Coding\.Net Framework\REST_CLIENT_APPLICATION\obj\Release\netcoreapp2.1\REST_CLIENT_APPLICATION.csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\REST_CLIENT_APPLICATION\obj\Release\netcoreapp2.1\REST_CLIENT_APPLICATION.AssemblyInfoInputs.cache
+C:\Coding\.Net Framework\REST_CLIENT_APPLICATION\obj\Release\netcoreapp2.1\REST_CLIENT_APPLICATION.AssemblyInfo.cs
+C:\Coding\.Net Framework\REST_CLIENT_APPLICATION\obj\Release\netcoreapp2.1\REST_CLIENT_APPLICATION.dll
+C:\Coding\.Net Framework\REST_CLIENT_APPLICATION\obj\Release\netcoreapp2.1\REST_CLIENT_APPLICATION.pdb
+C:\Coding\.Net Framework\REST_CLIENT_APPLICATION\obj\Release\netcoreapp2.1\REST_CLIENT_APPLICATION.csprojAssemblyReference.cache
