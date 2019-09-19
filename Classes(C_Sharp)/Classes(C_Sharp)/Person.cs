@@ -1,15 +1,16 @@
 ﻿using System;
 
-namespace Classes_C_Sharp_
+
+namespace Classes_C_Sharp
 {
     public class Person
     {
         public String firstName;
         public String lastName;
 
-        public void Introduce()
+        public void Introduce(int age)
         {
-            Console.WriteLine("Hi, it's " + firstName + " " + lastName);
+            Console.WriteLine("Hi, it's " + firstName + " " + lastName + ". I'm" + " " + age + " years old");
         } 
     };
 }

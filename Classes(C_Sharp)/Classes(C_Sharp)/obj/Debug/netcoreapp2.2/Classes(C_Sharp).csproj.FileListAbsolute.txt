@@ -9,3 +9,14 @@ C:\Coding\.Net Framework\Classes(C_Sharp)\Classes(C_Sharp)\obj\Debug\netcoreapp2
 C:\Coding\.Net Framework\Classes(C_Sharp)\Classes(C_Sharp)\obj\Debug\netcoreapp2.2\Classes(C_Sharp).AssemblyInfo.cs
 C:\Coding\.Net Framework\Classes(C_Sharp)\Classes(C_Sharp)\obj\Debug\netcoreapp2.2\Classes(C_Sharp).dll
 C:\Coding\.Net Framework\Classes(C_Sharp)\Classes(C_Sharp)\obj\Debug\netcoreapp2.2\Classes(C_Sharp).pdb
+C:\Coding\.Net Framework\4. Classes(C_Sharp)\Classes(C_Sharp)\bin\Debug\netcoreapp2.2\Classes(C_Sharp).deps.json
+C:\Coding\.Net Framework\4. Classes(C_Sharp)\Classes(C_Sharp)\bin\Debug\netcoreapp2.2\Classes(C_Sharp).runtimeconfig.json
+C:\Coding\.Net Framework\4. Classes(C_Sharp)\Classes(C_Sharp)\bin\Debug\netcoreapp2.2\Classes(C_Sharp).runtimeconfig.dev.json
+C:\Coding\.Net Framework\4. Classes(C_Sharp)\Classes(C_Sharp)\bin\Debug\netcoreapp2.2\Classes(C_Sharp).dll
+C:\Coding\.Net Framework\4. Classes(C_Sharp)\Classes(C_Sharp)\bin\Debug\netcoreapp2.2\Classes(C_Sharp).pdb
+C:\Coding\.Net Framework\4. Classes(C_Sharp)\Classes(C_Sharp)\obj\Debug\netcoreapp2.2\Classes(C_Sharp).csprojAssemblyReference.cache
+C:\Coding\.Net Framework\4. Classes(C_Sharp)\Classes(C_Sharp)\obj\Debug\netcoreapp2.2\Classes(C_Sharp).csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\4. Classes(C_Sharp)\Classes(C_Sharp)\obj\Debug\netcoreapp2.2\Classes(C_Sharp).AssemblyInfoInputs.cache
+C:\Coding\.Net Framework\4. Classes(C_Sharp)\Classes(C_Sharp)\obj\Debug\netcoreapp2.2\Classes(C_Sharp).AssemblyInfo.cs
+C:\Coding\.Net Framework\4. Classes(C_Sharp)\Classes(C_Sharp)\obj\Debug\netcoreapp2.2\Classes(C_Sharp).dll
+C:\Coding\.Net Framework\4. Classes(C_Sharp)\Classes(C_Sharp)\obj\Debug\netcoreapp2.2\Classes(C_Sharp).pdb

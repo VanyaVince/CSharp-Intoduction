@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Coding\\.Net Framework\\Classes(C_Sharp)\\Classes(C_Sharp)\\Classes(C_Sharp).csproj": {}
+    "C:\\Coding\\.Net Framework\\4. Classes(C_Sharp)\\Classes(C_Sharp)\\Classes(C_Sharp).csproj": {}
   },
   "projects": {
-    "C:\\Coding\\.Net Framework\\Classes(C_Sharp)\\Classes(C_Sharp)\\Classes(C_Sharp).csproj": {
+    "C:\\Coding\\.Net Framework\\4. Classes(C_Sharp)\\Classes(C_Sharp)\\Classes(C_Sharp).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Coding\\.Net Framework\\Classes(C_Sharp)\\Classes(C_Sharp)\\Classes(C_Sharp).csproj",
+        "projectUniqueName": "C:\\Coding\\.Net Framework\\4. Classes(C_Sharp)\\Classes(C_Sharp)\\Classes(C_Sharp).csproj",
         "projectName": "Classes(C_Sharp)",
-        "projectPath": "C:\\Coding\\.Net Framework\\Classes(C_Sharp)\\Classes(C_Sharp)\\Classes(C_Sharp).csproj",
+        "projectPath": "C:\\Coding\\.Net Framework\\4. Classes(C_Sharp)\\Classes(C_Sharp)\\Classes(C_Sharp).csproj",
         "packagesPath": "C:\\Users\\Vince\\.nuget\\packages\\",
-        "outputPath": "C:\\Coding\\.Net Framework\\Classes(C_Sharp)\\Classes(C_Sharp)\\obj\\",
+        "outputPath": "C:\\Coding\\.Net Framework\\4. Classes(C_Sharp)\\Classes(C_Sharp)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
