@@ -5,3 +5,17 @@ C:\Coding\.Net Framework\Classes(CSharp)\Classes(CSharp)\obj\Debug\Classes(CShar
 C:\Coding\.Net Framework\Classes(CSharp)\Classes(CSharp)\obj\Debug\Classes(CSharp).csproj.CoreCompileInputs.cache
 C:\Coding\.Net Framework\Classes(CSharp)\Classes(CSharp)\obj\Debug\Classes(CSharp).exe
 C:\Coding\.Net Framework\Classes(CSharp)\Classes(CSharp)\obj\Debug\Classes(CSharp).pdb
+C:\Coding\.Net Framework\Classes_CSharp\Classes(CSharp)\bin\Debug\Classes(CSharp).exe.config
+C:\Coding\.Net Framework\Classes_CSharp\Classes(CSharp)\bin\Debug\Classes(CSharp).exe
+C:\Coding\.Net Framework\Classes_CSharp\Classes(CSharp)\bin\Debug\Classes(CSharp).pdb
+C:\Coding\.Net Framework\Classes_CSharp\Classes(CSharp)\obj\Debug\Classes(CSharp).csprojAssemblyReference.cache
+C:\Coding\.Net Framework\Classes_CSharp\Classes(CSharp)\obj\Debug\Classes(CSharp).csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\Classes_CSharp\Classes(CSharp)\obj\Debug\Classes(CSharp).exe
+C:\Coding\.Net Framework\Classes_CSharp\Classes(CSharp)\obj\Debug\Classes(CSharp).pdb
+C:\Users\Vince\Desktop\_git_clone\LogicalTask\Classes_CSharp\Classes(CSharp)\bin\Debug\Classes(CSharp).exe.config
+C:\Users\Vince\Desktop\_git_clone\LogicalTask\Classes_CSharp\Classes(CSharp)\bin\Debug\Classes(CSharp).exe
+C:\Users\Vince\Desktop\_git_clone\LogicalTask\Classes_CSharp\Classes(CSharp)\bin\Debug\Classes(CSharp).pdb
+C:\Users\Vince\Desktop\_git_clone\LogicalTask\Classes_CSharp\Classes(CSharp)\obj\Debug\Classes(CSharp).csprojAssemblyReference.cache
+C:\Users\Vince\Desktop\_git_clone\LogicalTask\Classes_CSharp\Classes(CSharp)\obj\Debug\Classes(CSharp).csproj.CoreCompileInputs.cache
+C:\Users\Vince\Desktop\_git_clone\LogicalTask\Classes_CSharp\Classes(CSharp)\obj\Debug\Classes(CSharp).exe
+C:\Users\Vince\Desktop\_git_clone\LogicalTask\Classes_CSharp\Classes(CSharp)\obj\Debug\Classes(CSharp).pdb

@@ -11,6 +11,7 @@ namespace Classes_CSharp_
             vince.firstName = "Vince";
             vince.lastName = "Vanya";
             vince.Introduce(cal.Subtract(2019, 1994));
+            Person.StringJoinArray();
         }
     }
 }
