@@ -1,0 +1,7 @@
+C:\Coding\.Net Framework\DoubleArray\bin\Debug\DoubleArray.exe.config
+C:\Coding\.Net Framework\DoubleArray\bin\Debug\DoubleArray.exe
+C:\Coding\.Net Framework\DoubleArray\bin\Debug\DoubleArray.pdb
+C:\Coding\.Net Framework\DoubleArray\obj\Debug\DoubleArray.csprojAssemblyReference.cache
+C:\Coding\.Net Framework\DoubleArray\obj\Debug\DoubleArray.csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\DoubleArray\obj\Debug\DoubleArray.exe
+C:\Coding\.Net Framework\DoubleArray\obj\Debug\DoubleArray.pdb
