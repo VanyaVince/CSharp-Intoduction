@@ -10,11 +10,11 @@ namespace Iteration
     {
         static void Main(string[] args)
         {
-            //Exercise1DividedBy3();
-            //Exercise2SumNumbers();
-            //Exercise3Factorial();
+            Exercise1DividedBy3();
+            Exercise2SumNumbers();
+            Exercise3Factorial();
             Exercise4Lottery();
-
+            Exercise5MaxEnteredValue();
         }
         /*summary
         display the count of all characters(numbers) that are divisible by 3 with no remainder */
@@ -64,7 +64,7 @@ namespace Iteration
             Console.WriteLine("Factorial is: " + count);
         }
         /*summary
-         user's guessing. The random class gave as a random number from 1 to 10, user has 4 attempt to guess what is this number'*/
+         user's guessing. The random class gave us a random number from 1 to 10, user has 4 attempts to guess what is the number'*/
         private static void Exercise4Lottery()
         {
             const int attempts = 4;
@@ -82,6 +82,27 @@ namespace Iteration
                 }
             }
             Console.WriteLine($"You lost, the picked number was {randomNumber}");
+        }
+        /*summary
+         entered comma separated numbers, find the max value off them */
+        private static void Exercise5MaxEnteredValue()
+        {
+            var maxValue = 0;
+            Console.WriteLine("Please enter a sequence of numbers");
+
+                var str = Console.ReadLine();
+
+                if (string.IsNullOrEmpty(str))
+                    Console.Write("You've put nothing");
+                else
+                {
+                    foreach (var letter in str)
+                    {
+                        if ((int)char.GetNumericValue(letter) > maxValue)
+                            maxValue = (int)char.GetNumericValue(letter);
+                    }
+                    Console.WriteLine("Max value is: " + maxValue);
+            }
         }
     }
 }
