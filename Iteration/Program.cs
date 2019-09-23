@@ -12,7 +12,8 @@ namespace Iteration
         {
             //Exercise1DividedBy3();
             //Exercise2SumNumbers();
-            Exercise3Factorial();
+            //Exercise3Factorial();
+            Exercise4Lottery();
 
         }
         /*summary
@@ -48,7 +49,8 @@ namespace Iteration
                 count += Convert.ToInt32(number);
             }
         }
-
+        /*summary
+         compute the factorial of a number*/
         private static void Exercise3Factorial()
         {
             var count = 1;
@@ -60,6 +62,26 @@ namespace Iteration
                 //Console.WriteLine(count);
             }
             Console.WriteLine("Factorial is: " + count);
+        }
+        /*summary
+         user's guessing. The random class gave as a random number from 1 to 10, user has 4 attempt to guess what is this number'*/
+        private static void Exercise4Lottery()
+        {
+            const int attempts = 4;
+            Random random = new Random();
+            var randomNumber = random.Next(1, 10);
+            Console.WriteLine("The computer picked a random number within the specified range from 1 to 10.");
+            for (var i = attempts; i != 0; i--)
+            {
+                Console.WriteLine($"You got {i} more attempt(s) to guess what is this number");
+                var userNumber = Convert.ToInt32(Console.ReadLine());
+                if (userNumber == randomNumber)
+                {
+                    Console.WriteLine($"You won, the lucky number was {randomNumber}");
+                    break;
+                }
+            }
+            Console.WriteLine($"You lost, the picked number was {randomNumber}");
         }
     }
 }
