@@ -12,6 +12,8 @@ namespace Iteration
         {
             //Exercise1DividedBy3();
             //Exercise2SumNumbers();
+            Exercise3Factorial();
+
         }
         /*summary
         display the count of all characters(numbers) that are divisible by 3 with no remainder */
@@ -45,6 +47,19 @@ namespace Iteration
                     Console.WriteLine("@Echo: " + number);
                 count += Convert.ToInt32(number);
             }
+        }
+
+        private static void Exercise3Factorial()
+        {
+            var count = 1;
+            Console.WriteLine("Enter a number in order to compute the factorial");
+            var number = Convert.ToInt32(Console.ReadLine());
+            for (var i = number; i >= 1; i--)
+            {
+                count *= i ;
+                //Console.WriteLine(count);
+            }
+            Console.WriteLine("Factorial is: " + count);
         }
     }
 }
