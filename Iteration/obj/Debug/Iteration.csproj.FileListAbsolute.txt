@@ -5,3 +5,10 @@ C:\Users\Vince\source\repos\Iteration\obj\Debug\Iteration.csprojAssemblyReferenc
 C:\Users\Vince\source\repos\Iteration\obj\Debug\Iteration.csproj.CoreCompileInputs.cache
 C:\Users\Vince\source\repos\Iteration\obj\Debug\Iteration.exe
 C:\Users\Vince\source\repos\Iteration\obj\Debug\Iteration.pdb
+C:\Coding\.Net Framework\Iteration\bin\Debug\Iteration.exe.config
+C:\Coding\.Net Framework\Iteration\bin\Debug\Iteration.exe
+C:\Coding\.Net Framework\Iteration\bin\Debug\Iteration.pdb
+C:\Coding\.Net Framework\Iteration\obj\Debug\Iteration.csprojAssemblyReference.cache
+C:\Coding\.Net Framework\Iteration\obj\Debug\Iteration.csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\Iteration\obj\Debug\Iteration.exe
+C:\Coding\.Net Framework\Iteration\obj\Debug\Iteration.pdb
