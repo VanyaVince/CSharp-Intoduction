@@ -5,3 +5,10 @@ C:\Coding\.Net Framework\If_Statement\obj\Debug\If_Statement.csprojAssemblyRefer
 C:\Coding\.Net Framework\If_Statement\obj\Debug\If_Statement.csproj.CoreCompileInputs.cache
 C:\Coding\.Net Framework\If_Statement\obj\Debug\If_Statement.exe
 C:\Coding\.Net Framework\If_Statement\obj\Debug\If_Statement.pdb
+C:\Users\Vince\Desktop\_git_clone\LogicalTask\If_Statement\bin\Debug\If_Statement.exe.config
+C:\Users\Vince\Desktop\_git_clone\LogicalTask\If_Statement\bin\Debug\If_Statement.exe
+C:\Users\Vince\Desktop\_git_clone\LogicalTask\If_Statement\bin\Debug\If_Statement.pdb
+C:\Users\Vince\Desktop\_git_clone\LogicalTask\If_Statement\obj\Debug\If_Statement.csprojAssemblyReference.cache
+C:\Users\Vince\Desktop\_git_clone\LogicalTask\If_Statement\obj\Debug\If_Statement.csproj.CoreCompileInputs.cache
+C:\Users\Vince\Desktop\_git_clone\LogicalTask\If_Statement\obj\Debug\If_Statement.exe
+C:\Users\Vince\Desktop\_git_clone\LogicalTask\If_Statement\obj\Debug\If_Statement.pdb
