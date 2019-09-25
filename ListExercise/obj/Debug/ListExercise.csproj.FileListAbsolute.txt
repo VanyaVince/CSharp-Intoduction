@@ -1,0 +1,7 @@
+C:\Coding\.Net Framework\ListExercise\bin\Debug\ListExercise.exe.config
+C:\Coding\.Net Framework\ListExercise\bin\Debug\ListExercise.exe
+C:\Coding\.Net Framework\ListExercise\bin\Debug\ListExercise.pdb
+C:\Coding\.Net Framework\ListExercise\obj\Debug\ListExercise.csprojAssemblyReference.cache
+C:\Coding\.Net Framework\ListExercise\obj\Debug\ListExercise.csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\ListExercise\obj\Debug\ListExercise.exe
+C:\Coding\.Net Framework\ListExercise\obj\Debug\ListExercise.pdb
