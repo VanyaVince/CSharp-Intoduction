@@ -11,9 +11,10 @@ namespace ListExercise
     {
         static void Main(string[] args)
         {
-            Exercise1();
+            //Exercise1();
+            Exercise2();
         }
-
+        /*display on the console people who like your post*/
         private static void Exercise1()
         {
             Console.WriteLine("Write a sequence of names or press enter to terminate the program");
@@ -53,6 +54,25 @@ namespace ListExercise
                     }
                     break;
                 }
+            }
+        }
+        /*reverse*/
+        private static void Exercise2()
+        {
+            Console.WriteLine("Write your name and get the reverse");
+            var name = Console.ReadLine();
+            while (true)
+            {
+                if (!string.IsNullOrEmpty(name))
+                {
+                    var ch = name.ToCharArray();
+                    Array.Reverse(ch);
+                    var reverse = string.Join("", ch);
+                    Console.WriteLine($"The reverse of {name} is {reverse}");
+                    break;
+                }
+                else
+                    Console.WriteLine("Invalid value");
             }
         }
     }
