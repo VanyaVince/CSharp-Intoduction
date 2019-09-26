@@ -12,7 +12,8 @@ namespace ListExercise
         static void Main(string[] args)
         {
             //Exercise1();
-            Exercise2();
+            //Exercise2();
+            Exercise3();
         }
         /*display on the console people who like your post*/
         private static void Exercise1()
@@ -24,10 +25,7 @@ namespace ListExercise
             {
                 var name = Console.ReadLine();
                 if (!string.IsNullOrEmpty(name))
-                {
                     names.Add($"[{name}]");
-                }
-                
                 else
                 {
                     var arrayNames = names.ToArray();
@@ -74,6 +72,24 @@ namespace ListExercise
                 else
                     Console.WriteLine("Invalid value");
             }
+        }
+
+        private static void Exercise3()
+        {
+            Console.WriteLine("Write 5 unique numbers");
+            var numbers = new List<int>();
+            while (numbers.Count != 5)
+            {
+                Console.WriteLine($"You need to enter {(5 - numbers.Count)} number(s)");
+                var userCharacter = int.Parse(Console.ReadLine());
+                if (!numbers.Contains(userCharacter))
+                    numbers.Add(userCharacter);
+                else
+                    Console.WriteLine($"{userCharacter} is already entered, each number should be unique. Do it again");
+            }
+            numbers.Sort();
+            var result = string.Join(", ", numbers);
+            Console.WriteLine($"The entered, sorted numbers are: {result}");
         }
     }
 }
