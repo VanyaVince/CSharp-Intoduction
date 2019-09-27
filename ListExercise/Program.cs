@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,7 +14,8 @@ namespace ListExercise
         {
             //Exercise1();
             //Exercise2();
-            Exercise3();
+            //Exercise3();
+            Exercise4();
         }
         /*display on the console people who like your post*/
         private static void Exercise1()
@@ -81,15 +83,54 @@ namespace ListExercise
             while (numbers.Count != 5)
             {
                 Console.WriteLine($"You need to enter {(5 - numbers.Count)} number(s)");
-                var userCharacter = int.Parse(Console.ReadLine());
-                if (!numbers.Contains(userCharacter))
-                    numbers.Add(userCharacter);
+                var userCharacter = Console.ReadLine();
+                if (string.IsNullOrEmpty(userCharacter))
+                {
+                    Console.WriteLine("Invalid value. Re-try again");
+                    continue;
+                }
+                if (!numbers.Contains(int.Parse(userCharacter)))
+                    numbers.Add(int.Parse(userCharacter));
                 else
                     Console.WriteLine($"{userCharacter} is already entered, each number should be unique. Do it again");
             }
             numbers.Sort();
             var result = string.Join(", ", numbers);
             Console.WriteLine($"The entered, sorted numbers are: {result}");
+        }
+
+        private static void Exercise4()
+        {
+            Console.WriteLine("Continuously enter any numbers or type Quit to terminate the program");
+            var numbers = new List<int>();
+            var uniqueNumbers = new List<int>();
+            while (true)
+            {
+                var userCharacter = Console.ReadLine();
+                if (string.IsNullOrEmpty(userCharacter))
+                {
+                    Console.WriteLine("Invalid value. Re-try again");
+                    continue;
+                }
+
+                if (!string.IsNullOrEmpty(userCharacter) && Char.ToUpper(userCharacter[0]) + userCharacter.Substring(1) == "Quit")
+                    break;
+                else
+                {
+                    switch (numbers.Contains(int.Parse(userCharacter)))
+                    {
+                        case true:
+                            numbers.Add(int.Parse(userCharacter));
+                            break;
+                        case false:
+                            numbers.Add(int.Parse(userCharacter));
+                            uniqueNumbers.Add(int.Parse(userCharacter));
+                            break;
+                    }
+                }
+            }
+            var uniqueUserNumbers = string.Join(", ", uniqueNumbers);
+            Console.WriteLine($"The unique number(s) that\'ve been entered by you are: {uniqueUserNumbers}");
         }
     }
 }
