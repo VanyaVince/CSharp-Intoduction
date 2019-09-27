@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
+using System.Globalization;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -15,7 +16,8 @@ namespace ListExercise
             //Exercise1();
             //Exercise2();
             //Exercise3();
-            Exercise4();
+            //Exercise4();
+            Exercise5();
         }
         /*display on the console people who like your post*/
         private static void Exercise1()
@@ -131,6 +133,39 @@ namespace ListExercise
             }
             var uniqueUserNumbers = string.Join(", ", uniqueNumbers);
             Console.WriteLine($"The unique number(s) that\'ve been entered by you are: {uniqueUserNumbers}");
+        }
+
+        private static void Exercise5()
+        {
+            Console.WriteLine("Enter a List of 5 comma separated numbers");
+            var stringSeparator = new string[] {","};
+            
+
+            while (true)
+            {
+                var userList = Console.ReadLine();
+
+                if (string.IsNullOrEmpty(userList))
+                {
+                    Console.WriteLine("Invalid value. Re-try again");
+                    continue;
+                }
+                //list of user's numbers'
+                var numbers = userList.Split(stringSeparator, StringSplitOptions.RemoveEmptyEntries).ToList().Select(int.Parse).ToList();
+                
+                if (numbers.Count < 5)
+                {
+                    Console.WriteLine("Invalid List, you have to enter at least 5 numbers");
+                    numbers.Clear();
+                }
+                else
+                {
+                    numbers.Sort();
+                    var result = string.Join(", ", numbers.ConvertAll(x => x.ToString()).ToArray(), 0, 3);
+                    Console.WriteLine($"Three the smallest, entered numbers: {result}");
+                    break;
+                }
+            }
         }
     }
 }
