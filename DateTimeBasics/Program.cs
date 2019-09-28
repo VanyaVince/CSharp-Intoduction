@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DateTimeBasics
 {
@@ -34,6 +30,22 @@ namespace DateTimeBasics
 
             /*now.ToString has a lot of overloads, can provide with a specific date form, custom date and time format*/
             Console.WriteLine($"Using the specifier the current day is: {now:yyyy-MM-dd}");
+
+
+            /*timeSpan*/
+            Console.WriteLine();
+            var time = new TimeSpan(1,2,3);
+            //display only minutes
+            Console.WriteLine("TimeSpan in minutes: " + time.Minutes);
+            //display timeSpan as only minutes "TotalMinutes"
+            Console.WriteLine("TimeSpan in TotalMinutes: " + time.TotalMinutes);
+            //add, subtract time to (from) the current timeSpan
+            Console.WriteLine("Add a few minutes to current timeSpan: " + time.Add(TimeSpan.FromMinutes(8)).TotalMinutes);
+            Console.WriteLine("Subtract a few minutes from current timeSpan: " + time.Subtract(TimeSpan.FromMinutes(2)).TotalMinutes);
+
+            //convert from String to timeSpan
+            var parseTimeSpan = TimeSpan.Parse("20:05:59");
+            Console.WriteLine($"Converted string to timeSpan {parseTimeSpan}");
         }
     }
 }
