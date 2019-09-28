@@ -1,0 +1,14 @@
+C:\Users\Vince\source\repos\DateTimeBasics\bin\Debug\DateTimeBasics.exe.config
+C:\Users\Vince\source\repos\DateTimeBasics\bin\Debug\DateTimeBasics.exe
+C:\Users\Vince\source\repos\DateTimeBasics\bin\Debug\DateTimeBasics.pdb
+C:\Users\Vince\source\repos\DateTimeBasics\obj\Debug\DateTimeBasics.csprojAssemblyReference.cache
+C:\Users\Vince\source\repos\DateTimeBasics\obj\Debug\DateTimeBasics.csproj.CoreCompileInputs.cache
+C:\Users\Vince\source\repos\DateTimeBasics\obj\Debug\DateTimeBasics.exe
+C:\Users\Vince\source\repos\DateTimeBasics\obj\Debug\DateTimeBasics.pdb
+C:\Coding\.Net Framework\DateTimeBasics\bin\Debug\DateTimeBasics.exe.config
+C:\Coding\.Net Framework\DateTimeBasics\bin\Debug\DateTimeBasics.exe
+C:\Coding\.Net Framework\DateTimeBasics\bin\Debug\DateTimeBasics.pdb
+C:\Coding\.Net Framework\DateTimeBasics\obj\Debug\DateTimeBasics.csprojAssemblyReference.cache
+C:\Coding\.Net Framework\DateTimeBasics\obj\Debug\DateTimeBasics.csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\DateTimeBasics\obj\Debug\DateTimeBasics.exe
+C:\Coding\.Net Framework\DateTimeBasics\obj\Debug\DateTimeBasics.pdb
