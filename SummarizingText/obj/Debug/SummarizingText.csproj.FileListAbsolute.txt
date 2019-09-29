@@ -1,0 +1,7 @@
+C:\Coding\.Net Framework\SummarizingText\bin\Debug\SummarizingText.exe.config
+C:\Coding\.Net Framework\SummarizingText\bin\Debug\SummarizingText.exe
+C:\Coding\.Net Framework\SummarizingText\bin\Debug\SummarizingText.pdb
+C:\Coding\.Net Framework\SummarizingText\obj\Debug\SummarizingText.csprojAssemblyReference.cache
+C:\Coding\.Net Framework\SummarizingText\obj\Debug\SummarizingText.csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\SummarizingText\obj\Debug\SummarizingText.exe
+C:\Coding\.Net Framework\SummarizingText\obj\Debug\SummarizingText.pdb
