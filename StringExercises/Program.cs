@@ -11,10 +11,11 @@ namespace StringExercises
     {
         static void Main(string[] args)
         {
-            //Exercise1();
-            //Exercise2();
-            //Exercise3();
+            Exercise1();
+            Exercise2();
+            Exercise3();
             Exercise4();
+            Exercise5();
         }
         /*Write a program and ask the user to enter a few numbers separated by a hyphen.
          Work out if the numbers are consecutive. 
@@ -130,6 +131,28 @@ namespace StringExercises
             foreach (var word in words)
                 result += word.Replace(word[0], char.ToUpper(word[0]));
             Console.WriteLine($"The variable name with PascalName: {result}");
+        }
+
+        /*count all vowels sounds in a word*/
+        private static void Exercise5()
+        {
+            Console.WriteLine("Enter a word and the program count all its vowels");
+            var input = Console.ReadLine();
+            var count = 0;
+
+            if (string.IsNullOrEmpty(input))
+                return;
+
+            var charOfInput = input.Replace(" ", "").ToCharArray();
+            List<char> vowels = new List<char>(){'a', 'e', 'i', 'o', 'u'};
+
+            foreach (var ch in charOfInput)
+            {
+                if (vowels.Contains(ch))
+                    count += 1;
+            }
+
+            Console.WriteLine($"The word includes {count} vowels");
         }
     }
 }
