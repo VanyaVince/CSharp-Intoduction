@@ -12,10 +12,10 @@ namespace StringExercises
         static void Main(string[] args)
         {
             Exercise1();
-            Exercise2();
-            Exercise3();
-            Exercise4();
-            Exercise5();
+            //Exercise2();
+            //Exercise3();
+            //Exercise4();
+            //Exercise5();
         }
         /*Write a program and ask the user to enter a few numbers separated by a hyphen.
          Work out if the numbers are consecutive. 
@@ -38,25 +38,30 @@ namespace StringExercises
 
                 if (int.TryParse(ifOnlyNumbers, out int c))
                 {
-                    var numbers = input.Split('-').Select(int.Parse).ToList();
-                    var isConsecutive = true;
-                    for (int i = 0; i < numbers.Count - 1; i++)
-                    {
-                        if (Math.Abs(numbers[i] - numbers[i + 1]) != 1)
-                        {
-                            isConsecutive = false;
-                            break;
-                        }
-                    }
-                    var result = (isConsecutive) ? $"The sequence of numbers '{input}' is 'Consecutive'" : $"The sequence of numbers {input} is 'Not Consecutive'";
+                    var result = DefineSequence(input);
                     Console.WriteLine(result);
                     break;
                 }
-                /*if userString consists of letter*/
-                else
-                    Console.WriteLine("Sorry but the sequence of numbers is entered incorrectly, re-try again using a hyphen sign");
+                /*if userString has of any letter*/
+                Console.WriteLine("Sorry but the sequence of numbers is entered incorrectly, re-try again using a hyphen sign");
             }
         }
+
+        private static string DefineSequence(string input)
+        {
+            var numbers = input.Split('-').Select(int.Parse).ToList();
+            var isConsecutive = true;
+            for (int i = 0; i < numbers.Count - 1; i++)
+            {
+                if (Math.Abs(numbers[i] - numbers[i + 1]) != 1)
+                {
+                    isConsecutive = false;
+                    break;
+                }
+            }
+            return (isConsecutive) ? $"The sequence of numbers '{input}' is 'Consecutive'" : $"The sequence of numbers {input} is 'Not Consecutive'";
+        }
+
         /*Write a program and ask the user to enter a few numbers separated by a hyphen.
          If the user simply presses Enter, without supplying an input, exit immediately; otherwise, check to see if there are duplicates. 
          If so, display "Duplicate" on the console.*/
