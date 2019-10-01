@@ -13,7 +13,8 @@ namespace StringExercises
         {
             //Exercise1();
             //Exercise2();
-            Exercise3();
+            //Exercise3();
+            Exercise4();
         }
         /*Write a program and ask the user to enter a few numbers separated by a hyphen.
          Work out if the numbers are consecutive. 
@@ -113,6 +114,22 @@ namespace StringExercises
             DateTime time = DateTime.Parse(string.Join(":", timeElements));
             var result = (time.ToString("HH:mm") == input) ? $"The time {input} is valid" : $"The time {input} is invalid";
             Console.WriteLine(result);
+        }
+
+        /*The variable name with PascalName*/
+        private static void Exercise4()
+        {
+            Console.WriteLine("Enter some words separated by a space");
+            var input = Console.ReadLine();
+            var result = "";
+
+
+            if (string.IsNullOrEmpty(input))
+                return;
+            var words = input.ToLower().Trim().Split(' ');
+            foreach (var word in words)
+                result += word.Replace(word[0], char.ToUpper(word[0]));
+            Console.WriteLine($"The variable name with PascalName: {result}");
         }
     }
 }
