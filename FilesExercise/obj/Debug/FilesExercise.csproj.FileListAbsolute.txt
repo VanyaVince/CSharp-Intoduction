@@ -1,0 +1,7 @@
+C:\Coding\.Net Framework\FilesExercise\bin\Debug\FilesExercise.exe.config
+C:\Coding\.Net Framework\FilesExercise\bin\Debug\FilesExercise.exe
+C:\Coding\.Net Framework\FilesExercise\bin\Debug\FilesExercise.pdb
+C:\Coding\.Net Framework\FilesExercise\obj\Debug\FilesExercise.csprojAssemblyReference.cache
+C:\Coding\.Net Framework\FilesExercise\obj\Debug\FilesExercise.csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\FilesExercise\obj\Debug\FilesExercise.exe
+C:\Coding\.Net Framework\FilesExercise\obj\Debug\FilesExercise.pdb
