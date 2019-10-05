@@ -1,0 +1,14 @@
+C:\Users\Vince\source\repos\Classes\bin\Debug\Classes.exe.config
+C:\Users\Vince\source\repos\Classes\bin\Debug\Classes.exe
+C:\Users\Vince\source\repos\Classes\bin\Debug\Classes.pdb
+C:\Users\Vince\source\repos\Classes\obj\Debug\Classes.csprojAssemblyReference.cache
+C:\Users\Vince\source\repos\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\Vince\source\repos\Classes\obj\Debug\Classes.exe
+C:\Users\Vince\source\repos\Classes\obj\Debug\Classes.pdb
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Classes\bin\Debug\Classes.exe.config
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Classes\bin\Debug\Classes.exe
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Classes\bin\Debug\Classes.pdb
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Classes\obj\Debug\Classes.csprojAssemblyReference.cache
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Classes\obj\Debug\Classes.exe
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Classes\obj\Debug\Classes.pdb
