@@ -1,0 +1,14 @@
+C:\Coding\.Net Framework\StringExercises\bin\Debug\StringExercises.exe.config
+C:\Coding\.Net Framework\StringExercises\bin\Debug\StringExercises.exe
+C:\Coding\.Net Framework\StringExercises\bin\Debug\StringExercises.pdb
+C:\Coding\.Net Framework\StringExercises\obj\Debug\StringExercises.csprojAssemblyReference.cache
+C:\Coding\.Net Framework\StringExercises\obj\Debug\StringExercises.csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\StringExercises\obj\Debug\StringExercises.exe
+C:\Coding\.Net Framework\StringExercises\obj\Debug\StringExercises.pdb
+D:\_git_clone\LogicalTask\C#BasicsWithMosh\StringExercises\bin\Debug\StringExercises.exe.config
+D:\_git_clone\LogicalTask\C#BasicsWithMosh\StringExercises\bin\Debug\StringExercises.exe
+D:\_git_clone\LogicalTask\C#BasicsWithMosh\StringExercises\bin\Debug\StringExercises.pdb
+D:\_git_clone\LogicalTask\C#BasicsWithMosh\StringExercises\obj\Debug\StringExercises.csprojAssemblyReference.cache
+D:\_git_clone\LogicalTask\C#BasicsWithMosh\StringExercises\obj\Debug\StringExercises.csproj.CoreCompileInputs.cache
+D:\_git_clone\LogicalTask\C#BasicsWithMosh\StringExercises\obj\Debug\StringExercises.exe
+D:\_git_clone\LogicalTask\C#BasicsWithMosh\StringExercises\obj\Debug\StringExercises.pdb
