@@ -1,0 +1,7 @@
+C:\Coding\.Net Framework\C#IntermediateWithMosh\PropertiesAndDictionary\bin\Debug\PropertiesAndDictionary.exe.config
+C:\Coding\.Net Framework\C#IntermediateWithMosh\PropertiesAndDictionary\bin\Debug\PropertiesAndDictionary.exe
+C:\Coding\.Net Framework\C#IntermediateWithMosh\PropertiesAndDictionary\bin\Debug\PropertiesAndDictionary.pdb
+C:\Coding\.Net Framework\C#IntermediateWithMosh\PropertiesAndDictionary\obj\Debug\PropertiesAndDictionary.csprojAssemblyReference.cache
+C:\Coding\.Net Framework\C#IntermediateWithMosh\PropertiesAndDictionary\obj\Debug\PropertiesAndDictionary.csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\C#IntermediateWithMosh\PropertiesAndDictionary\obj\Debug\PropertiesAndDictionary.exe
+C:\Coding\.Net Framework\C#IntermediateWithMosh\PropertiesAndDictionary\obj\Debug\PropertiesAndDictionary.pdb
