@@ -12,3 +12,10 @@ C:\Coding\.Net Framework\C#IntermediateWithMosh\Classes\obj\Debug\Classes.csproj
 C:\Coding\.Net Framework\C#IntermediateWithMosh\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
 C:\Coding\.Net Framework\C#IntermediateWithMosh\Classes\obj\Debug\Classes.exe
 C:\Coding\.Net Framework\C#IntermediateWithMosh\Classes\obj\Debug\Classes.pdb
+D:\_git_clone\LogicalTask\Classes\bin\Debug\Classes.exe.config
+D:\_git_clone\LogicalTask\Classes\bin\Debug\Classes.exe
+D:\_git_clone\LogicalTask\Classes\bin\Debug\Classes.pdb
+D:\_git_clone\LogicalTask\Classes\obj\Debug\Classes.csprojAssemblyReference.cache
+D:\_git_clone\LogicalTask\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+D:\_git_clone\LogicalTask\Classes\obj\Debug\Classes.exe
+D:\_git_clone\LogicalTask\Classes\obj\Debug\Classes.pdb

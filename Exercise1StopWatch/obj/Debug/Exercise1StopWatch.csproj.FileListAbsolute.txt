@@ -5,3 +5,10 @@ C:\Coding\.Net Framework\C#IntermediateWithMosh\Exercise1StopWatch\obj\Debug\Exe
 C:\Coding\.Net Framework\C#IntermediateWithMosh\Exercise1StopWatch\obj\Debug\Exercise1StopWatch.csproj.CoreCompileInputs.cache
 C:\Coding\.Net Framework\C#IntermediateWithMosh\Exercise1StopWatch\obj\Debug\Exercise1StopWatch.exe
 C:\Coding\.Net Framework\C#IntermediateWithMosh\Exercise1StopWatch\obj\Debug\Exercise1StopWatch.pdb
+D:\_git_clone\LogicalTask\Exercise1StopWatch\bin\Debug\Exercise1StopWatch.exe.config
+D:\_git_clone\LogicalTask\Exercise1StopWatch\bin\Debug\Exercise1StopWatch.exe
+D:\_git_clone\LogicalTask\Exercise1StopWatch\bin\Debug\Exercise1StopWatch.pdb
+D:\_git_clone\LogicalTask\Exercise1StopWatch\obj\Debug\Exercise1StopWatch.csprojAssemblyReference.cache
+D:\_git_clone\LogicalTask\Exercise1StopWatch\obj\Debug\Exercise1StopWatch.csproj.CoreCompileInputs.cache
+D:\_git_clone\LogicalTask\Exercise1StopWatch\obj\Debug\Exercise1StopWatch.exe
+D:\_git_clone\LogicalTask\Exercise1StopWatch\obj\Debug\Exercise1StopWatch.pdb
