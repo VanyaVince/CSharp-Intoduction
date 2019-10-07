@@ -5,3 +5,10 @@ C:\Users\Vince\source\repos\Ex2StackOverflow\obj\Debug\Ex2StackOverflow.csprojAs
 C:\Users\Vince\source\repos\Ex2StackOverflow\obj\Debug\Ex2StackOverflow.csproj.CoreCompileInputs.cache
 C:\Users\Vince\source\repos\Ex2StackOverflow\obj\Debug\Ex2StackOverflow.exe
 C:\Users\Vince\source\repos\Ex2StackOverflow\obj\Debug\Ex2StackOverflow.pdb
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Ex2StackOverflow\bin\Debug\Ex2StackOverflow.exe.config
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Ex2StackOverflow\bin\Debug\Ex2StackOverflow.exe
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Ex2StackOverflow\bin\Debug\Ex2StackOverflow.pdb
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Ex2StackOverflow\obj\Debug\Ex2StackOverflow.csprojAssemblyReference.cache
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Ex2StackOverflow\obj\Debug\Ex2StackOverflow.csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Ex2StackOverflow\obj\Debug\Ex2StackOverflow.exe
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Ex2StackOverflow\obj\Debug\Ex2StackOverflow.pdb
