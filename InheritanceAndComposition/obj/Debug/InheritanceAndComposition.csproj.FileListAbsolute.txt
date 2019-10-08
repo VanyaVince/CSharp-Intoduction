@@ -1,0 +1,7 @@
+C:\Coding\.Net Framework\C#IntermediateWithMosh\InheritanceAndComposition\bin\Debug\InheritanceAndComposition.exe.config
+C:\Coding\.Net Framework\C#IntermediateWithMosh\InheritanceAndComposition\bin\Debug\InheritanceAndComposition.exe
+C:\Coding\.Net Framework\C#IntermediateWithMosh\InheritanceAndComposition\bin\Debug\InheritanceAndComposition.pdb
+C:\Coding\.Net Framework\C#IntermediateWithMosh\InheritanceAndComposition\obj\Debug\InheritanceAndComposition.csprojAssemblyReference.cache
+C:\Coding\.Net Framework\C#IntermediateWithMosh\InheritanceAndComposition\obj\Debug\InheritanceAndComposition.csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\C#IntermediateWithMosh\InheritanceAndComposition\obj\Debug\InheritanceAndComposition.exe
+C:\Coding\.Net Framework\C#IntermediateWithMosh\InheritanceAndComposition\obj\Debug\InheritanceAndComposition.pdb
