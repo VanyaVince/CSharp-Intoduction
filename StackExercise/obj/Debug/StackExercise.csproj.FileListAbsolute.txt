@@ -1,0 +1,7 @@
+C:\Coding\.Net Framework\C#IntermediateWithMosh\StackExercise\bin\Debug\StackExercise.exe.config
+C:\Coding\.Net Framework\C#IntermediateWithMosh\StackExercise\bin\Debug\StackExercise.exe
+C:\Coding\.Net Framework\C#IntermediateWithMosh\StackExercise\bin\Debug\StackExercise.pdb
+C:\Coding\.Net Framework\C#IntermediateWithMosh\StackExercise\obj\Debug\StackExercise.csprojAssemblyReference.cache
+C:\Coding\.Net Framework\C#IntermediateWithMosh\StackExercise\obj\Debug\StackExercise.csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\C#IntermediateWithMosh\StackExercise\obj\Debug\StackExercise.exe
+C:\Coding\.Net Framework\C#IntermediateWithMosh\StackExercise\obj\Debug\StackExercise.pdb
