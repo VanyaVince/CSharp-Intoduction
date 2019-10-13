@@ -1,0 +1,7 @@
+C:\Coding\.Net Framework\C#IntermediateWithMosh\DbConnectionExercise\bin\Debug\DbConnectionExercise.exe.config
+C:\Coding\.Net Framework\C#IntermediateWithMosh\DbConnectionExercise\bin\Debug\DbConnectionExercise.exe
+C:\Coding\.Net Framework\C#IntermediateWithMosh\DbConnectionExercise\bin\Debug\DbConnectionExercise.pdb
+C:\Coding\.Net Framework\C#IntermediateWithMosh\DbConnectionExercise\obj\Debug\DbConnectionExercise.csprojAssemblyReference.cache
+C:\Coding\.Net Framework\C#IntermediateWithMosh\DbConnectionExercise\obj\Debug\DbConnectionExercise.csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\C#IntermediateWithMosh\DbConnectionExercise\obj\Debug\DbConnectionExercise.exe
+C:\Coding\.Net Framework\C#IntermediateWithMosh\DbConnectionExercise\obj\Debug\DbConnectionExercise.pdb
