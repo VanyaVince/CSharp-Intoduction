@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace ConsoleApp1
 {
@@ -10,7 +12,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Order order = new Order { DatePlaced = DateTime.Now,  Cost = (int) 100f };
+            var path = @"C:\Users\Vince\source\repos\ConsoleApp1\users.json";
+            Logger logger = new Logger(new User("Vanya", "Tarakan123".Trim()), new FileCheck(path));
+            logger.Log();
         }
     }
 }
