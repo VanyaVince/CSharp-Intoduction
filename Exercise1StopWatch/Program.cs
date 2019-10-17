@@ -8,18 +8,16 @@ namespace Exercise1StopWatch
         static void Main(string[] args)
         {
             var stopWatch = new StopWatch();
-            var counter = 0;
-
 
             while (true)
             {
-                stopWatch.Start(DateTime.Now);
+                stopWatch.Start();
 
                 Console.WriteLine("The program has been started. Enter '2' to terminate and get the duration between start and finish or '1' to launch it again");
 
                 if (UserService.GetUserDecision(Console.ReadLine()) == 2)
                 {
-                    stopWatch.End(DateTime.Now);
+                    stopWatch.End();
 
                     var interval = stopWatch.GetDuration();
 
