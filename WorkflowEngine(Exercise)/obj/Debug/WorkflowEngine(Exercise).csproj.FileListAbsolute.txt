@@ -1,0 +1,7 @@
+C:\Coding\.Net Framework\C#IntermediateWithMosh\WorkflowEngine(Exercise)\bin\Debug\WorkflowEngine(Exercise).exe.config
+C:\Coding\.Net Framework\C#IntermediateWithMosh\WorkflowEngine(Exercise)\bin\Debug\WorkflowEngine(Exercise).exe
+C:\Coding\.Net Framework\C#IntermediateWithMosh\WorkflowEngine(Exercise)\bin\Debug\WorkflowEngine(Exercise).pdb
+C:\Coding\.Net Framework\C#IntermediateWithMosh\WorkflowEngine(Exercise)\obj\Debug\WorkflowEngine(Exercise).csprojAssemblyReference.cache
+C:\Coding\.Net Framework\C#IntermediateWithMosh\WorkflowEngine(Exercise)\obj\Debug\WorkflowEngine(Exercise).csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\C#IntermediateWithMosh\WorkflowEngine(Exercise)\obj\Debug\WorkflowEngine(Exercise).exe
+C:\Coding\.Net Framework\C#IntermediateWithMosh\WorkflowEngine(Exercise)\obj\Debug\WorkflowEngine(Exercise).pdb
