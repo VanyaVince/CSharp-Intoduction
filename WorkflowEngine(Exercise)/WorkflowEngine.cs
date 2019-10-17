@@ -3,26 +3,14 @@ using System.Collections.Generic;
 
 namespace WorkflowEngine_Exercise_
 {
-    public class WorkflowEngine : IWorkflow
+    public class WorkflowEngine
     {
-        private readonly List<IWorkflow> _workflow;
-
-        public WorkflowEngine()
+        public void Run(IWorkflow iWorkflow)
         {
-            this._workflow = new List<IWorkflow>();
-        }
-
-        public void Execute()
-        {
-            foreach (var workflow in _workflow)
+            foreach (var workflow in iWorkflow.GetTasks())
             {
                 workflow.Execute();
             }
-        }
-
-        public void RegisterWorkflowActivities(IWorkflow iWorkflow)
-        {
-            this._workflow.Add(iWorkflow);
         }
     }
 }

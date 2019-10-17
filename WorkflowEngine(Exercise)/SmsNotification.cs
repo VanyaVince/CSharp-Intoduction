@@ -2,7 +2,7 @@
 
 namespace WorkflowEngine_Exercise_
 {
-    public class SmsNotification : IWorkflow
+    public class SmsNotification : ITasks
     {
         public void Execute()
         {

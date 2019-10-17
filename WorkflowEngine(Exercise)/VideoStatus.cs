@@ -2,7 +2,7 @@
 
 namespace WorkflowEngine_Exercise_
 {
-    public class VideoStatus : IWorkflow
+    public class VideoStatus : ITasks
     {
         public void Execute()
         {

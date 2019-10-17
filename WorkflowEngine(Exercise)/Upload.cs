@@ -2,7 +2,7 @@
 
 namespace WorkflowEngine_Exercise_
 {
-    public class Upload : IWorkflow
+    public class Upload : ITasks
     {
         public void Execute()
         {
