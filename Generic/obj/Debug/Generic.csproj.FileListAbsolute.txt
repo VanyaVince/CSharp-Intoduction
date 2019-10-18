@@ -1,0 +1,7 @@
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Generic\bin\Debug\Generic.exe.config
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Generic\bin\Debug\Generic.exe
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Generic\bin\Debug\Generic.pdb
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Generic\obj\Debug\Generic.csprojAssemblyReference.cache
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Generic\obj\Debug\Generic.csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Generic\obj\Debug\Generic.exe
+C:\Coding\.Net Framework\C#IntermediateWithMosh\Generic\obj\Debug\Generic.pdb
