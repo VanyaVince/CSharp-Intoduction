@@ -1,0 +1,7 @@
+C:\Coding\.Net Framework\Stairs\bin\Debug\Stairs.exe.config
+C:\Coding\.Net Framework\Stairs\bin\Debug\Stairs.exe
+C:\Coding\.Net Framework\Stairs\bin\Debug\Stairs.pdb
+C:\Coding\.Net Framework\Stairs\obj\Debug\Stairs.csprojAssemblyReference.cache
+C:\Coding\.Net Framework\Stairs\obj\Debug\Stairs.csproj.CoreCompileInputs.cache
+C:\Coding\.Net Framework\Stairs\obj\Debug\Stairs.exe
+C:\Coding\.Net Framework\Stairs\obj\Debug\Stairs.pdb
