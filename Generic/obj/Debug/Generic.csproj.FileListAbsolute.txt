@@ -5,3 +5,10 @@ C:\Coding\.Net Framework\C#IntermediateWithMosh\Generic\obj\Debug\Generic.csproj
 C:\Coding\.Net Framework\C#IntermediateWithMosh\Generic\obj\Debug\Generic.csproj.CoreCompileInputs.cache
 C:\Coding\.Net Framework\C#IntermediateWithMosh\Generic\obj\Debug\Generic.exe
 C:\Coding\.Net Framework\C#IntermediateWithMosh\Generic\obj\Debug\Generic.pdb
+D:\_git_clone\LogicalTask\Generic\bin\Debug\Generic.exe.config
+D:\_git_clone\LogicalTask\Generic\bin\Debug\Generic.exe
+D:\_git_clone\LogicalTask\Generic\bin\Debug\Generic.pdb
+D:\_git_clone\LogicalTask\Generic\obj\Debug\Generic.csprojAssemblyReference.cache
+D:\_git_clone\LogicalTask\Generic\obj\Debug\Generic.csproj.CoreCompileInputs.cache
+D:\_git_clone\LogicalTask\Generic\obj\Debug\Generic.exe
+D:\_git_clone\LogicalTask\Generic\obj\Debug\Generic.pdb

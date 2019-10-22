@@ -6,13 +6,15 @@ namespace Generic
     {
         public float Price { get; set; }
         public String Name { get; set; }
+        public DateTime Expiration { get; set; }
 
         public Product()
         {
         }
-        public Product(string name, float price)
+        public Product(string name, float price, DateTime expiration)
         {
             Price = price;
+            Expiration = expiration;
             Name = name;
         }
         public int CompareTo(Object obj)
