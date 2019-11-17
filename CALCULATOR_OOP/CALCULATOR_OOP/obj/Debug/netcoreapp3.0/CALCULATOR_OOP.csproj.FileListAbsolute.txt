@@ -1,0 +1,11 @@
+C:\Users\Ivan.Svirydovich\source\repos\CALCULATOR_OOP\CALCULATOR_OOP\bin\Debug\netcoreapp3.0\CALCULATOR_OOP.exe
+C:\Users\Ivan.Svirydovich\source\repos\CALCULATOR_OOP\CALCULATOR_OOP\bin\Debug\netcoreapp3.0\CALCULATOR_OOP.deps.json
+C:\Users\Ivan.Svirydovich\source\repos\CALCULATOR_OOP\CALCULATOR_OOP\bin\Debug\netcoreapp3.0\CALCULATOR_OOP.runtimeconfig.json
+C:\Users\Ivan.Svirydovich\source\repos\CALCULATOR_OOP\CALCULATOR_OOP\bin\Debug\netcoreapp3.0\CALCULATOR_OOP.runtimeconfig.dev.json
+C:\Users\Ivan.Svirydovich\source\repos\CALCULATOR_OOP\CALCULATOR_OOP\bin\Debug\netcoreapp3.0\CALCULATOR_OOP.dll
+C:\Users\Ivan.Svirydovich\source\repos\CALCULATOR_OOP\CALCULATOR_OOP\bin\Debug\netcoreapp3.0\CALCULATOR_OOP.pdb
+C:\Users\Ivan.Svirydovich\source\repos\CALCULATOR_OOP\CALCULATOR_OOP\obj\Debug\netcoreapp3.0\CALCULATOR_OOP.csprojAssemblyReference.cache
+C:\Users\Ivan.Svirydovich\source\repos\CALCULATOR_OOP\CALCULATOR_OOP\obj\Debug\netcoreapp3.0\CALCULATOR_OOP.AssemblyInfoInputs.cache
+C:\Users\Ivan.Svirydovich\source\repos\CALCULATOR_OOP\CALCULATOR_OOP\obj\Debug\netcoreapp3.0\CALCULATOR_OOP.AssemblyInfo.cs
+C:\Users\Ivan.Svirydovich\source\repos\CALCULATOR_OOP\CALCULATOR_OOP\obj\Debug\netcoreapp3.0\CALCULATOR_OOP.dll
+C:\Users\Ivan.Svirydovich\source\repos\CALCULATOR_OOP\CALCULATOR_OOP\obj\Debug\netcoreapp3.0\CALCULATOR_OOP.pdb
