@@ -1,9 +1,9 @@
 ﻿namespace CALCULATOR_OOP
 {
-    public class Operation
+    public abstract class Operation
     {
-        protected object FirstArgument;
-        protected object SecondArgument;
-        protected object Result;
+        public object FirstArgument { get; set; }
+        public object SecondArgument { get; set; }
+        public object Result { get; set; }
     }
 }

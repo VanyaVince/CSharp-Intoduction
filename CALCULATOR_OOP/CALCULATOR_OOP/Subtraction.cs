@@ -4,7 +4,7 @@ namespace CALCULATOR_OOP
 {
     public class Subtraction : Operation, IOperation
     {
-        public Subtraction(double firstArgument, double secondArgument)
+        public Subtraction(object firstArgument, object secondArgument)
         {
             this.FirstArgument = firstArgument;
             this.SecondArgument = secondArgument;

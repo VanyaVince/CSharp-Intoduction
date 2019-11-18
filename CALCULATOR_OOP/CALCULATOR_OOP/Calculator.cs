@@ -2,8 +2,9 @@
 {
     public class Calculator
     {
-        public Calculator()
+        public object Execute(IOperation operation)
         {
+            return operation.Calculate();
         }
     }
 }

@@ -9,24 +9,25 @@ namespace CALCULATOR_OOP
             this.FirstArgument = firstMatrix;
             this.SecondArgument = secondMatrix;
         }
+
         public object Calculate()
         {
-            DrawMatrix(((Matrix)FirstArgument).Array);
-            DrawMatrix(((Matrix)SecondArgument).Array);
 
-            //var matrixA = new Matrix(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
-            //var matrixB = new Matrix(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
+            Result = new Matrix(((Matrix)FirstArgument).Row, ((Matrix)SecondArgument).Column);
 
-            var multipliedMatrix = new Matrix(((Matrix)FirstArgument).Row, ((Matrix)SecondArgument).Column);
-            MultiplyMatrix(((Matrix) FirstArgument).Array, ((Matrix) SecondArgument).Array, multipliedMatrix.Array);
+            var multipliedMatrix = MultiplyMatrix();
 
-            DisplayMatrix(multipliedMatrix.Array);
+            DisplayMatrix((Matrix)this.Result);
 
             return multipliedMatrix;
         }
 
-        private double[,] MultiplyMatrix(double[,]firstMatrix, double[,]secondMatrix, double[,]multipliedMatrix)
+        private object MultiplyMatrix()
         {
+            var firstMatrix = ((Matrix)FirstArgument).Array;
+            var secondMatrix = ((Matrix)SecondArgument).Array;
+            var multipliedMatrix = ((Matrix)Result).Array;
+
             for (int rowFirstMatrix = 0; rowFirstMatrix <= firstMatrix.GetUpperBound(0); rowFirstMatrix++)
             {
                 for (int columnSecondMatrix = 0; columnSecondMatrix <= secondMatrix.GetUpperBound(1); columnSecondMatrix++)
@@ -41,53 +42,27 @@ namespace CALCULATOR_OOP
                     multipliedMatrix[rowFirstMatrix, columnSecondMatrix] = result;
                 }
             }
-            return multipliedMatrix;
+            return this.Result;
         }
 
-        private static void DisplayMatrix(double[,] array)
+        private void DisplayMatrix(Matrix matrix)
         {
             //Console.Clear();
-            //Console.WriteLine($"{DisplayDashes()}\n{message}:");
+            Console.WriteLine($"{CalculatorService.DisplayDashes()}");
 
-            for (int i = 0; i <= array.GetUpperBound(0); i++)
+            for (int i = 0; i < matrix.Row; i++)
             {
-                for (int j = 0; j <= array.GetUpperBound(1); j++)
+                for (int j = 0; j < matrix.Column; j++)
                 {
-                    Console.WriteLine(array[i, j]);
+                    Console.WriteLine(matrix.Array[i, j]);
 
                     Console.SetCursorPosition((j + 1) * 9, Console.CursorTop - 1);
                 }
                 Console.WriteLine();
             }
-            //Console.WriteLine(DisplayDashes());
+            Console.WriteLine(CalculatorService.DisplayDashes());
         }
 
-        private static void DrawMatrix(double[,] matrix)
-        {
-            //Console.WriteLine(
-            //    $"{DisplayDashes()}\nFilling the matrix out one by one. The measures of matrix are [{matrix.GetUpperBound(0) + 1}, {matrix.GetUpperBound(1) + 1}]");
-
-            for (int i = 0; i <= matrix.GetUpperBound(0); i++)
-            {
-                for (int j = 0; j <= matrix.GetUpperBound(1); j++)
-                {
-                    var cursorPointerHorizontally = (j + 1) * 9;
-
-                    if (Double.TryParse(Console.ReadLine(), out double number))
-                    {
-                        matrix[i, j] = number;
-                        Console.SetCursorPosition(cursorPointerHorizontally, Console.CursorTop - 1);
-                    }
-                    else
-                    {
-                        j--;
-                        cursorPointerHorizontally = (j + 1) * 9;
-                        //EraseInvalidValue(cursorPointerHorizontally, Console.CursorTop - 1);
-                    }
-                }
-                Console.WriteLine();
-            }
-            //Console.WriteLine(DisplayDashes());
-        }
+        
     }
 }

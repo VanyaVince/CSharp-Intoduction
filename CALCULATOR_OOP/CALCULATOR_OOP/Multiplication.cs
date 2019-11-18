@@ -4,7 +4,7 @@ namespace CALCULATOR_OOP
 {
     public class Multiplication: Operation, IOperation
     {
-        public Multiplication(double firstArgument, double secondArgument)
+        public Multiplication(object firstArgument, object secondArgument)
         {
             this.FirstArgument = firstArgument;
             this.SecondArgument = secondArgument;

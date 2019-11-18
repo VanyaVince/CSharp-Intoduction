@@ -4,7 +4,7 @@ namespace CALCULATOR_OOP
 {
     public class Division: Operation, IOperation
     {
-        public Division(double firstArgument, double secondArgument)
+        public Division(object firstArgument, object secondArgument)
         {
             this.FirstArgument = firstArgument;
             this.SecondArgument = secondArgument;
