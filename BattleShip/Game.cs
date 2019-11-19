@@ -26,7 +26,7 @@ namespace BattleShip
                 //list with all free panels
                 var allEmptyPanels = GetEmptyPanels(_panelDesk);
 
-                //choose one panel for start placing new ship
+                ////choose one panel for start placing new ship
                 var targetPanel = allEmptyPanels[_random.Next(allEmptyPanels.Count)];
 
                 // direction of rotation
