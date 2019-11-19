@@ -2,6 +2,6 @@
 {
     public interface IOperation
     {
-        object Calculate();
+        Operation Calculate();
     }
 }

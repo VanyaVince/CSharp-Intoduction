@@ -2,7 +2,7 @@
 {
     public class Calculator
     {
-        public object Execute(IOperation operation)
+        public Operation Execute(IOperation operation)
         {
             return operation.Calculate();
         }

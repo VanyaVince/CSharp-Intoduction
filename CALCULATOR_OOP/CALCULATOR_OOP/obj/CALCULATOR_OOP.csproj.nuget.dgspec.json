@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Ivan.Svirydovich\\source\\repos\\CALCULATOR_OOP\\CALCULATOR_OOP\\CALCULATOR_OOP.csproj": {}
+    "C:\\Users\\Ivan.Svirydovich\\source\\repos\\CALCULATOR_OOP\\CALCULATOR_OOP\\CALCULATOR_OOP.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Ivan.Svirydovich\\source\\repos\\CALCULATOR_OOP\\CALCULATOR_OOP\\CALCULATOR_OOP.csproj": {
+    "C:\\Users\\Ivan.Svirydovich\\source\\repos\\CALCULATOR_OOP\\CALCULATOR_OOP\\CALCULATOR_OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Ivan.Svirydovich\\source\\repos\\CALCULATOR_OOP\\CALCULATOR_OOP\\CALCULATOR_OOP.csproj",
+        "projectUniqueName": "C:\\Users\\Ivan.Svirydovich\\source\\repos\\CALCULATOR_OOP\\CALCULATOR_OOP\\CALCULATOR_OOP.csproj",
         "projectName": "CALCULATOR_OOP",
-        "projectPath": "c:\\Users\\Ivan.Svirydovich\\source\\repos\\CALCULATOR_OOP\\CALCULATOR_OOP\\CALCULATOR_OOP.csproj",
+        "projectPath": "C:\\Users\\Ivan.Svirydovich\\source\\repos\\CALCULATOR_OOP\\CALCULATOR_OOP\\CALCULATOR_OOP.csproj",
         "packagesPath": "C:\\Users\\Ivan.Svirydovich\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Ivan.Svirydovich\\source\\repos\\CALCULATOR_OOP\\CALCULATOR_OOP\\obj\\",
+        "outputPath": "C:\\Users\\Ivan.Svirydovich\\source\\repos\\CALCULATOR_OOP\\CALCULATOR_OOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ivan.Svirydovich\\AppData\\Roaming\\NuGet\\NuGet.Config",
