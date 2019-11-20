@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Data;
+using CALCULATOR_OOP.Service;
 
-namespace CALCULATOR_OOP
+namespace CALCULATOR_OOP.Model
 {
     public class Matrix
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CALCULATOR_OOP
+namespace CALCULATOR_OOP.Operations
 {
     public class Division: Operation, IOperation
     {
@@ -15,7 +15,7 @@ namespace CALCULATOR_OOP
 
             if (((double)SecondArgument).Equals(zero))
             {
-                Console.WriteLine("Cannot divide by zero");
+                Console.WriteLine("Cannot divide by zero\n");
                 return null;
             }
             

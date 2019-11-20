@@ -1,6 +1,7 @@
 ﻿using System;
+using CALCULATOR_OOP.Service;
 
-namespace CALCULATOR_OOP
+namespace CALCULATOR_OOP.Validation
 {
     public class ReusableOperationInputValidation
     {

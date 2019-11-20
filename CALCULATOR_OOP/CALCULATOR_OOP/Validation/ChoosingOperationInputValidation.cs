@@ -1,4 +1,5 @@
 ﻿using System;
+using CALCULATOR_OOP.Service;
 
 namespace CALCULATOR_OOP.Validation
 {
@@ -8,7 +9,7 @@ namespace CALCULATOR_OOP.Validation
         {
             while (true)
             {
-                if (Int32.TryParse(Console.ReadLine(), out int number) && number >= 1 || number <= 6)
+                if (Int32.TryParse(Console.ReadLine(), out int number) && number <= 6 && number >= 1)
                     return number;
 
                 CalculatorService.EraseInvalidValue(Console.CursorLeft, Console.CursorTop - 1);

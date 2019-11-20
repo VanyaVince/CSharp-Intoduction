@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CALCULATOR_OOP
+namespace CALCULATOR_OOP.Service
 {
     public class CalculatorService
     {
@@ -12,10 +12,6 @@ namespace CALCULATOR_OOP
             Console.SetCursorPosition(cursorLeft, cursorTop);
         }
 
-        public static void DisplayArgument(string message)
-        {
-            Console.WriteLine($"The first argument is: {message}. Enter the other");
-        }
 
         public static string DisplayDashes()
         {

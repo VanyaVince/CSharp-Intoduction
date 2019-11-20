@@ -1,6 +1,7 @@
 ﻿using System;
+using CALCULATOR_OOP.Model;
 
-namespace CALCULATOR_OOP
+namespace CALCULATOR_OOP.Operations
 {
     public class MatrixMultiplication: Operation, IOperation
     {

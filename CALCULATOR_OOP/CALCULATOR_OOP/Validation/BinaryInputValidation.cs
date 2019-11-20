@@ -1,10 +1,11 @@
 ﻿using System;
+using CALCULATOR_OOP.Service;
 
-namespace CALCULATOR_OOP
+namespace CALCULATOR_OOP.Validation
 {
     public class BinaryInputValidation
     {
-        public double Validate(int cursorPosition = 0)
+        public double Validate()
         {
             Console.WriteLine("Enter Number");
             while (true)
@@ -12,7 +13,7 @@ namespace CALCULATOR_OOP
                 if (Double.TryParse(Console.ReadLine(), out double number))
                     return number;
 
-                CalculatorService.EraseInvalidValue(cursorPosition, Console.CursorTop - 1);
+                CalculatorService.EraseInvalidValue(0, Console.CursorTop - 1);
             }
         } 
     }

@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using CALCULATOR_OOP.Model;
+using CALCULATOR_OOP.Operations;
+using CALCULATOR_OOP.Service;
 using CALCULATOR_OOP.Validation;
 
 namespace CALCULATOR_OOP
@@ -27,19 +30,24 @@ namespace CALCULATOR_OOP
                 switch (typeOperation)
                     {
                         case 1:
-                            _lastBinaryOperation = Calculator.Execute(new Addition(_lastOperationMode && _lastBinaryOperation != null ? (double)_lastBinaryOperation.Result : Validation.Validate(1), Validation.Validate(1)));
+                            _lastBinaryOperation = Calculator.Execute(new Addition(_lastOperationMode && _lastBinaryOperation != null ? (double)_lastBinaryOperation.Result : Validation.Validate(), Validation.Validate()));
                             OperationHistory.Add("addition");
                             break;
                         case 2:
-                            _lastBinaryOperation = Calculator.Execute(new Subtraction(_lastOperationMode && _lastBinaryOperation != null ? (double)_lastBinaryOperation.Result : Validation.Validate(1), Validation.Validate(1)));
+                            _lastBinaryOperation = Calculator.Execute(new Subtraction(_lastOperationMode && _lastBinaryOperation != null ? (double)_lastBinaryOperation.Result : Validation.Validate(), Validation.Validate()));
                             OperationHistory.Add("subtraction");
                             break;
                         case 3:
-                            _lastBinaryOperation = Calculator.Execute(new Multiplication(_lastOperationMode && _lastBinaryOperation != null ? (double)_lastBinaryOperation.Result : Validation.Validate(1), Validation.Validate(1)));
+                            _lastBinaryOperation = Calculator.Execute(new Multiplication(_lastOperationMode && _lastBinaryOperation != null ? (double)_lastBinaryOperation.Result : Validation.Validate(), Validation.Validate()));
                             OperationHistory.Add("multiplication");
                             break;
                         case 4:
-                            _lastBinaryOperation = Calculator.Execute(new Division(_lastOperationMode && _lastBinaryOperation != null ? (double)_lastBinaryOperation.Result : Validation.Validate(1), Validation.Validate(1)));
+                            _lastBinaryOperation = Calculator.Execute(new Division(_lastOperationMode && _lastBinaryOperation != null ? (double)_lastBinaryOperation.Result : Validation.Validate(), Validation.Validate()));
+                            if (_lastBinaryOperation == null)
+                            {
+                                _lastOperationMode = false;
+                                continue;
+                            }
                             OperationHistory.Add("division");
                             break;
                         case 5:
@@ -49,13 +57,13 @@ namespace CALCULATOR_OOP
 
                             if (_lastOperationMode && _lastMatrixOperation == null)
                             {
-                                Console.WriteLine("Last operation result doesn't equal to dimensions matrix");
+                                Console.WriteLine("There is no operations with matrices yet");
                                 break;
                             }
 
                             //initialize first matrix, either as last operation result or a new instance;
-                            matrixA = (_lastOperationMode && _lastMatrixOperation != null) ? (Matrix) _lastMatrixOperation.Result : new Matrix(MatrixValidation.Validate(1), MatrixValidation.Validate(1));
-                            matrixB = new Matrix(MatrixValidation.Validate(1), MatrixValidation.Validate(1));
+                            matrixA = (_lastOperationMode && _lastMatrixOperation != null) ? (Matrix) _lastMatrixOperation.Result : new Matrix(MatrixValidation.Validate(), MatrixValidation.Validate());
+                            matrixB = new Matrix(MatrixValidation.Validate(), MatrixValidation.Validate());
 
 
                             if (matrixA.Row != matrixB.Column)
@@ -65,7 +73,7 @@ namespace CALCULATOR_OOP
                             }
 
                             //if first argument is new matrix, fill it out
-                            if (!_lastOperationMode && _lastMatrixOperation == null)
+                            if (!_lastOperationMode)
                                 matrixA.FillOutMatrix();
 
                             matrixB.FillOutMatrix();
@@ -80,7 +88,7 @@ namespace CALCULATOR_OOP
                                 break;
                             }
                             foreach (var itemsHistory in OperationHistory)
-                                Console.WriteLine(itemsHistory); 
+                                Console.WriteLine($"\n{itemsHistory}\n"); 
                             break;
                     }
 

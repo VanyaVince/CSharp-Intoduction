@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CALCULATOR_OOP
+namespace CALCULATOR_OOP.Operations
 {
     public class Multiplication: Operation, IOperation
     {

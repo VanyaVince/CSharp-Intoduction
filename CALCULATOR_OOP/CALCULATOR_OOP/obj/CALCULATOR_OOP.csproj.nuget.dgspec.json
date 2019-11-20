@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ivan.Svirydovich\\source\\repos\\CALCULATOR_OOP\\CALCULATOR_OOP\\CALCULATOR_OOP.csproj": {}
+    "C:\\Users\\Ivan.Svirydovich\\Desktop\\LogicalTask\\CALCULATOR_OOP\\CALCULATOR_OOP\\CALCULATOR_OOP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ivan.Svirydovich\\source\\repos\\CALCULATOR_OOP\\CALCULATOR_OOP\\CALCULATOR_OOP.csproj": {
+    "C:\\Users\\Ivan.Svirydovich\\Desktop\\LogicalTask\\CALCULATOR_OOP\\CALCULATOR_OOP\\CALCULATOR_OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ivan.Svirydovich\\source\\repos\\CALCULATOR_OOP\\CALCULATOR_OOP\\CALCULATOR_OOP.csproj",
+        "projectUniqueName": "C:\\Users\\Ivan.Svirydovich\\Desktop\\LogicalTask\\CALCULATOR_OOP\\CALCULATOR_OOP\\CALCULATOR_OOP.csproj",
         "projectName": "CALCULATOR_OOP",
-        "projectPath": "C:\\Users\\Ivan.Svirydovich\\source\\repos\\CALCULATOR_OOP\\CALCULATOR_OOP\\CALCULATOR_OOP.csproj",
+        "projectPath": "C:\\Users\\Ivan.Svirydovich\\Desktop\\LogicalTask\\CALCULATOR_OOP\\CALCULATOR_OOP\\CALCULATOR_OOP.csproj",
         "packagesPath": "C:\\Users\\Ivan.Svirydovich\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ivan.Svirydovich\\source\\repos\\CALCULATOR_OOP\\CALCULATOR_OOP\\obj\\",
+        "outputPath": "C:\\Users\\Ivan.Svirydovich\\Desktop\\LogicalTask\\CALCULATOR_OOP\\CALCULATOR_OOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ivan.Svirydovich\\AppData\\Roaming\\NuGet\\NuGet.Config",
